@@ -25,9 +25,10 @@ jobs:
       - run: node .github/scripts/update-readme.mjs
       - name: Commit README
         run: |
-          git diff --quiet README.md && exit 0
+          git add README.md coach/solved.json
+          git diff --cached --quiet && exit 0
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'README 풀이 목록 갱신' README.md
+          git commit -m 'README 풀이 목록 갱신'
           # 그 사이 백준허브가 새 풀이를 올렸으면 위에 쌓는다
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done

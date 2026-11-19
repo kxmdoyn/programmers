@@ -1,7 +1,8 @@
 // README의 풀이 현황을 백준허브가 올린 문제별 README.md에서 다시 만든다.
 // GitHub Actions(.github/workflows/readme.yml)가 풀이가 올라올 때마다 실행한다.
+// 학습 사이트가 API 한도 없이 읽도록 풀이 파일 목록도 coach/solved.json 으로 남긴다.
 // README에서 <!-- AUTO:START --> ~ <!-- AUTO:END --> 사이만 바꾸므로, 그 위아래는 자유롭게 고쳐도 된다.
-import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 const ROOT = '프로그래머스'
@@ -204,6 +205,18 @@ const next =
   current.includes(START) && current.includes(END)
     ? current.slice(0, current.indexOf(START)) + auto + current.slice(current.indexOf(END) + END.length)
     : `${current.trim() ? current.trim() + '\n\n' : DEFAULT_TOP + '\n'}${auto}\n`
+
+// 학습 사이트(AI Coding Coach Lite)용 풀이 파일 목록
+const files = walk(ROOT).map((p) => p.split('\\').join('/')).sort()
+const index = `${JSON.stringify({ paths: files }, null, 2)}\n`
+mkdirSync('coach', { recursive: true })
+let oldIndex = ''
+try {
+  oldIndex = readFileSync('coach/solved.json', 'utf8')
+} catch {
+  // 처음 만드는 경우
+}
+if (index !== oldIndex) writeFileSync('coach/solved.json', index)
 
 if (next !== current) {
   writeFileSync(README, next)
