@@ -208,7 +208,11 @@ const next =
 
 // 학습 사이트(AI Coding Coach Lite)용 풀이 파일 목록
 const files = walk(ROOT).map((p) => p.split('\\').join('/')).sort()
-const index = `${JSON.stringify({ paths: files }, null, 2)}\n`
+// dates: 문제 번호 → 제출일 (사이트의 연속 풀이·고양이 상태 계산용)
+const dates = Object.fromEntries(
+  [...byId.values()].filter((p) => p.date).sort((a, b) => a.id - b.id).map((p) => [p.id, p.date]),
+)
+const index = `${JSON.stringify({ paths: files, dates }, null, 2)}\n`
 mkdirSync('coach', { recursive: true })
 let oldIndex = ''
 try {
