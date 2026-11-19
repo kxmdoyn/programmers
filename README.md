@@ -16,7 +16,7 @@
 <!-- AUTO:START -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/solved-20%EB%AC%B8%EC%A0%9C-1BBAFF?style=flat-square" /> <img src="https://img.shields.io/badge/%ED%92%80%EC%9D%B4%ED%95%9C%20%EB%82%A0-3%EC%9D%BC-47C84C?style=flat-square" /> <img src="https://img.shields.io/badge/%EC%97%B0%EC%86%8D-2%EC%9D%BC%20%F0%9F%94%A5-FF7A00?style=flat-square" /> <img src="https://img.shields.io/badge/%EC%B5%9C%EA%B7%BC%20%ED%92%80%EC%9D%B4-2026--11--19-8B95A1?style=flat-square" />
+<img src="https://img.shields.io/badge/solved-21%EB%AC%B8%EC%A0%9C-1BBAFF?style=flat-square" /> <img src="https://img.shields.io/badge/%ED%92%80%EC%9D%B4%ED%95%9C%20%EB%82%A0-3%EC%9D%BC-47C84C?style=flat-square" /> <img src="https://img.shields.io/badge/%EC%97%B0%EC%86%8D-2%EC%9D%BC%20%F0%9F%94%A5-FF7A00?style=flat-square" /> <img src="https://img.shields.io/badge/%EC%B5%9C%EA%B7%BC%20%ED%92%80%EC%9D%B4-2026--11--19-8B95A1?style=flat-square" />
 
 </div>
 
@@ -24,7 +24,7 @@
 
 | 레벨 | 문제 수 | |
 |:---:|:---:|---|
-| <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | **7** | 🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜ |
+| <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | **8** | 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜ |
 | <img src="https://img.shields.io/badge/-Lv.1-1BBAFF?style=flat-square" /> | **13** | 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 |
 
 ## 🌱 최근 5주
@@ -41,7 +41,7 @@
 
 ## 🏷️ 많이 푼 유형
 
-`코딩 기초 트레이닝 6` · `연습문제 4` · `PCCE 기출문제 2` · `완전탐색 2` · `SELECT 1` · `스택／큐 1` · `월간 코드 챌린지 시즌1 1` · `정렬 1`
+`코딩 기초 트레이닝 7` · `연습문제 4` · `PCCE 기출문제 2` · `완전탐색 2` · `SELECT 1` · `스택／큐 1` · `월간 코드 챌린지 시즌1 1` · `정렬 1`
 
 ## 🕒 최근 풀이
 
@@ -55,17 +55,18 @@
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.1-1BBAFF?style=flat-square" /> | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | 정렬 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42748.%E2%80%85K%EB%B2%88%EC%A7%B8%EC%88%98/K%EB%B2%88%EC%A7%B8%EC%88%98.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [두 수의 합 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120802) | 코딩테스트 입문 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120802.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.1-1BBAFF?style=flat-square" /> | [흉부외과 또는 일반외과 의사 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/132203) | SELECT | [<img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/132203.%E2%80%85%ED%9D%89%EB%B6%80%EC%99%B8%EA%B3%BC%E2%80%85%EB%98%90%EB%8A%94%E2%80%85%EC%9D%BC%EB%B0%98%EC%99%B8%EA%B3%BC%E2%80%85%EC%9D%98%EC%82%AC%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%ED%9D%89%EB%B6%80%EC%99%B8%EA%B3%BC%E2%80%85%EB%98%90%EB%8A%94%E2%80%85%EC%9D%BC%EB%B0%98%EC%99%B8%EA%B3%BC%E2%80%85%EC%9D%98%EC%82%AC%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql) |
+| 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181940.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B3%B1%ED%95%98%EA%B8%B0/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B3%B1%ED%95%98%EA%B8%B0.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181943.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B2%B9%EC%B3%90%EC%93%B0%EA%B8%B0/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B2%B9%EC%B3%90%EC%93%B0%EA%B8%B0.py) |
-| 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [덧셈식 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181947) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181947.%E2%80%85%EB%8D%A7%EC%85%88%EC%8B%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EB%8D%A7%EC%85%88%EC%8B%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.py) |
 
 ## 📚 전체 목록
 
 <details>
-<summary><b>Lv.0</b> · 7문제</summary>
+<summary><b>Lv.0</b> · 8문제</summary>
 
 | 날짜 | 레벨 | 문제 | 유형 | 풀이 |
 |:---:|:---:|---|---|:---:|
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [두 수의 합 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120802) | 코딩테스트 입문 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120802.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.py) |
+| 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181940.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B3%B1%ED%95%98%EA%B8%B0/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B3%B1%ED%95%98%EA%B8%B0.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181943.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B2%B9%EC%B3%90%EC%93%B0%EA%B8%B0/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EA%B2%B9%EC%B3%90%EC%93%B0%EA%B8%B0.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [덧셈식 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181947) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181947.%E2%80%85%EB%8D%A7%EC%85%88%EC%8B%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EB%8D%A7%EC%85%88%EC%8B%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.py) |
 | 11.19 | <img src="https://img.shields.io/badge/-Lv.0-8B95A1?style=flat-square" /> | [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950) | 코딩 기초 트레이닝 | [<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181950.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EB%B0%98%EB%B3%B5%ED%95%B4%EC%84%9C%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EB%B0%98%EB%B3%B5%ED%95%B4%EC%84%9C%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.py) |
