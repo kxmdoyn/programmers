@@ -6,6 +6,8 @@
 
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/-BaekjoonHub-0F172A?style=flat-square&logo=github&logoColor=white" />
 
+<a href="https://ai-coding-coach-lite.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%90%B1%20%ED%95%99%EC%8A%B5%20%EC%82%AC%EC%9D%B4%ED%8A%B8-AI%20Coding%20Coach%20Lite-1BBAFF?style=flat-square" alt="학습 사이트" /></a>
+
 </div>
 
 > 프로그래머스에서 정답을 제출하면 [백준허브](https://github.com/BaekjoonHub/BaekjoonHub)가 자동으로 올리고,
