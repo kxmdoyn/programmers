@@ -1,0 +1,33 @@
+name: Update README
+
+on:
+  push:
+    branches: [main]
+    paths: ['프로그래머스/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node .github/scripts/update-readme.mjs
+      - name: Commit README
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'README 풀이 목록 갱신' README.md
+          # 그 사이 백준허브가 새 풀이를 올렸으면 위에 쌓는다
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done
